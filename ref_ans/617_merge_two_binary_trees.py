@@ -18,3 +18,5 @@ class Solution:
         root.right = self.mergeTrees(root1.right if root1 else None, root2.right if root2 else None)
 
         return root
+
+
