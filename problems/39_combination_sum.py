@@ -10,7 +10,7 @@ class Solution:
 
             for j in range(start, n):
                 cur_list.append(candidates[j])
-                # give the curent number another chance.
+                # give the current number another chance.
                 backtrack(cur_list, cur_sum + candidates[j], j)
 
                 # backtrack, remove the number from the list
